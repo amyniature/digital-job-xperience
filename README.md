@@ -7,12 +7,12 @@ L’objectif est d’accompagner les participantes dans leur apprentissage du nu
 Si tu te trouves ici, c'est que tu fais partie d'un des groupe que j'ai coaché ! Tu trouveras ce que vous avez réalisé dans  le dossier correspondant à la date de ton édition.
 Si ton dossier est vide, c'est que c'est en cours !
 
-| Thème                                               | Date           | Lieu      | Réalisation |
+| Thème                                               | Date           | Lieu      | Page web |
 |-----------------------------------------------------|----------------|-----------|-------------|
 | 🧸 SOS Peluches                                     | Janvier 2023   | Simplon   |             |
 | 🧦 Chaussettes solitaires                           | Mai 2023       | Klaxoon   |             |
 | 🎄 Épuisement professionnel des lutins du Père Noël | Décembre 2023  | HelloWork |             |
-| 🦥 Crise du logement chez les animaux               | Septembre 2024 | Lacroix   |             |
+| 🦥 Crise du logement chez les animaux               | Septembre 2024 | Lacroix   | [Ty Casa](https://amyniature.github.io/digital-job-xperience/2024/crise-logement-animaux/ty-casa/index.html) |
 |                                                     |                |           |             |
 
 <details>
