@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ty Casa</title>
+    <link rel="stylesheet" href="/2024/crise-logement-animaux/ty-casa/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+Warang+Citi&family=Podkova:wght@400..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="container">
+        <div class="logo">
+            <img src="/2024/crise-logement-animaux/ty-casa/images/hut.png" class="img-logo" alt="logo">
+            <h1> Ty Casa </h1>
+        </div>
+        <nav>
+            <ul class="menu reset">
+                <li><a href="#">A propos</a> </li>
+                <li><a href="#">Cours</a> </li>
+                <li><a href="#">Témoignages</a></li>
+                <li><a href="">Créer mon cours</a></li>
+                <li><a href="#"> Connexion/Inscription</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="container vertical-spacing">
+        <h2 for="site-search">A découvrir sur Ty casa :</h2>
+        <div class="search-bar">
+            <input type="search" id="site-search" name="q" placeholder="Rechercher" />
+            <select class="select-critere" name="habitat" id="habitat-select">
+                <option value="">Type habitat</option>
+                <option value="dog">Eau</option>
+                <option value="cat">Terre</option>
+                <option value="hamster">Forêt</option>
+            </select>
+            <select class="select-critere" name="difficultes" id="difficultes-select">
+                <option value="">Difficultés</option>
+                <option value="dog">Facile</option>
+                <option value="cat">Moyenne</option>
+                <option value="hamster">Elevée</option>
+                <option value="hamster">Hard-core</option>
+            </select>
+            <select class="select-critere" name="notes" id="notes-select">
+                <option value="">Note</option>
+                <option value="dog">Bof 1/5</option>
+                <option value="cat">Moyen 2/5</option>
+                <option value="hamster">Pas mal 3/5</option>
+                <option value="hamster">Cool 4/5</option>
+                <option value="hamster">Top 5/5</option>
+            </select>
+
+            <button class="button-primary">Trouver</button>
+        </div>
+    </section>
+    <section id="mieux-notes">
+        <div class="container vertical-spacing">
+            <h2>Les mieux notés</h2>
+            <ul class="card-container reset">
+                <li class="card">
+                    <div class="card-img">
+                        <img src="/2024/crise-logement-animaux/ty-casa/images/nichoir.jpg" alt="image-cours">
+                    </div>
+                    <div class="card-content">
+                        <h3>Nichoir romantique</h3>
+                        <p>4
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg>
+                        </p>
+                        <p>Construisez votre nid d'amour</p>
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="card-img">
+                        <img src="/2024/crise-logement-animaux/ty-casa/images/cabane.jpg" alt="image-cours">
+                    </div>
+                    <div class="card-content">
+                        <h3>Cabane sur pilotis</h3>
+                        <p>4.4
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg>
+                        </p>
+                        <p>Prenez de la hauteur</p>
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="card-img">
+                        <img src="/2024/crise-logement-animaux/ty-casa/images/Nid.webp" alt="image-cours">
+                    </div>
+                    <div class="card-content">
+                        <h3>Nid douillet</h3>
+                        <p>4.6
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg>
+                        </p>
+                        <p>Pas de budget, mais confortable</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="container vertical-spacing">
+        <h2>Dans l'eau</h2>
+        <ul class="card-container reset">
+            <li class="card">
+                <div class="card-img">
+                    <img src="/2024/crise-logement-animaux/ty-casa/images/cabane.jpg" alt="image-cours" alt="image-cours">
+                </div>
+                <div class="card-content">
+                    <h3>Cabane sur pilotis</h3>
+                    <p>4.4
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg>
+                    </p>
+                    <p>Prenez de la hauteur</p>
+                </div>
+            </li>
+            <li class="card">
+                <div class="card-img">
+                    <img src="/2024/crise-logement-animaux/ty-casa/images/frayere.jpg" alt="image-cours">
+                </div>
+                <div class="card-content">
+                    <h3>Frayère famille nombreuse</h3>
+                    <p>4
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg>
+                    </p>
+                    <p>De la place pour toute la famille</p>
+                </div>
+            </li>
+            <li class="card">
+                <div class="card-img">
+                    <img src="/2024/crise-logement-animaux/ty-casa/images/maison-eau2.jpg" alt="image-cours">
+                </div>
+                <div class="card-content">
+                    <h3>Au bord de l'eau</h3>
+                    <p>3.9
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg>
+                    </p>
+                    <p>Calme et sérénité</p>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <section class="container vertical-spacing">
+        <h2>Dans les arbres</h2>
+        <ul class="card-container reset">
+            <li class="card">
+                <div class="card-img">
+                    <img src="/2024/crise-logement-animaux/ty-casa/images/nichoir.jpg" alt="image-cours">
+                </div>
+                <div class="card-content">
+                    <h3>Nichoir Romantique</h3>
+                    <p>4
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg>
+                    </p>
+                    <p>Construisez votre nid d'amour</p>
+                </div>
+            </li>
+            <li class="card">
+                <div class="card-img">
+                    <img src="/2024/crise-logement-animaux/ty-casa/images/Nid.webp" alt="image-cours">
+                </div>
+                <div class="card-content">
+                    <h3>Nid douillet</h3>
+                    <p>4.6
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg>
+                    </p>
+                    <p>Pas de budget, mais confortable</p>
+                </div>
+            </li>
+            <li class="card">
+                <div class="card-img">
+                    <img src="/2024/crise-logement-animaux/ty-casa/images/h.avif" alt="image-cours">
+                </div>
+                <div class="card-content">
+                    <h3>Hamac fou</h3>
+                    <p>3.2
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg>
+                    </p>
+                    <p>C'est l'aventure !</p>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <ul class="menu reset">
+                <li>
+                    <a href="#">CGV</a>
+                </li>
+                <li>
+                    <a href="#">CGU</a>
+                </li>
+                <li>
+                    <a href="#">A propos</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+                <li>
+                    <a href="#">X</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
