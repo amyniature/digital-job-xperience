@@ -13,7 +13,7 @@ Si ton dossier est vide, c'est que c'est en cours !
 | 🧦 Chaussettes solitaires                           | Mai 2023       | Klaxoon   |             |
 | 🎄 Épuisement professionnel des lutins du Père Noël | Décembre 2023  | HelloWork |             |
 | 🦥 Crise du logement chez les animaux               | Septembre 2024 | Lacroix   | [Ty Casa](https://amyniature.github.io/digital-job-xperience/2024/crise-logement-animaux/ty-casa/index.html) |
-|                                                     |                |           |             |
+| 🍄 La lutte contre le vol des nains de jardin       | Janvier 2025   | Zenika    |             |
 
 <details>
   <summary>En savoir plus sur la DJX</summary>
